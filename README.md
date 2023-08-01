@@ -16,5 +16,5 @@ These packages will re-import themselves when the project is opened again, so it
 
 ---------------------------------------------------
 
-Here is a somewhat updated Itch.io link for the game
+Here is a somewhat updated (whenever i get the time to update files) Itch.io link for the game:
 https://cyrilv.itch.io/test-1
