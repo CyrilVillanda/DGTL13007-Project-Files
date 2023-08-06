@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - BalloonScript
     - CollectableAttribute
     - ConditionArea
+    - ConditionCollision
     - ConditionKeyPress
     - DialogueBalloonAction
     - DialogueSystem
@@ -127,6 +128,15 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.AnimationModule
     fullTypeName: UnityEngine.Animator
     methodName: SetTrigger
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
   sceneClasses:
     Assets/Scenes/GoBananas.unity:
     - Class: 1
@@ -170,53 +180,55 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1564}
     - Class: 114
-      Script: {instanceID: 1762}
+      Script: {instanceID: 1760}
     - Class: 114
-      Script: {instanceID: 2502}
+      Script: {instanceID: 2500}
     - Class: 114
-      Script: {instanceID: 2758}
+      Script: {instanceID: 2756}
     - Class: 114
-      Script: {instanceID: 2918}
+      Script: {instanceID: 2916}
     - Class: 114
-      Script: {instanceID: 2926}
+      Script: {instanceID: 2924}
     - Class: 114
-      Script: {instanceID: 3070}
+      Script: {instanceID: 3068}
     - Class: 114
-      Script: {instanceID: 3412}
+      Script: {instanceID: 3410}
     - Class: 114
-      Script: {instanceID: 3520}
+      Script: {instanceID: 3434}
     - Class: 114
-      Script: {instanceID: 3626}
+      Script: {instanceID: 3518}
     - Class: 114
-      Script: {instanceID: 3976}
+      Script: {instanceID: 3624}
     - Class: 114
-      Script: {instanceID: 3980}
+      Script: {instanceID: 3974}
     - Class: 114
-      Script: {instanceID: 4274}
+      Script: {instanceID: 3978}
     - Class: 114
-      Script: {instanceID: 4774}
+      Script: {instanceID: 4272}
     - Class: 114
-      Script: {instanceID: 5646}
+      Script: {instanceID: 4772}
     - Class: 114
-      Script: {instanceID: 5754}
+      Script: {instanceID: 5644}
     - Class: 114
-      Script: {instanceID: 6106}
+      Script: {instanceID: 5752}
     - Class: 114
-      Script: {instanceID: 6232}
+      Script: {instanceID: 6104}
     - Class: 114
-      Script: {instanceID: 6472}
+      Script: {instanceID: 6230}
     - Class: 114
-      Script: {instanceID: 6520}
+      Script: {instanceID: 6470}
     - Class: 114
-      Script: {instanceID: 6572}
+      Script: {instanceID: 6518}
     - Class: 114
-      Script: {instanceID: 7630}
+      Script: {instanceID: 6570}
     - Class: 114
-      Script: {instanceID: 8270}
+      Script: {instanceID: 7628}
     - Class: 114
-      Script: {instanceID: 8508}
+      Script: {instanceID: 8268}
     - Class: 114
-      Script: {instanceID: 8844}
+      Script: {instanceID: 8506}
+    - Class: 114
+      Script: {instanceID: 8842}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -273,33 +285,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1562}
     - Class: 114
-      Script: {instanceID: 2304}
+      Script: {instanceID: 2302}
     - Class: 114
-      Script: {instanceID: 2810}
+      Script: {instanceID: 2808}
     - Class: 114
-      Script: {instanceID: 3054}
+      Script: {instanceID: 3052}
     - Class: 114
-      Script: {instanceID: 3412}
+      Script: {instanceID: 3410}
     - Class: 114
-      Script: {instanceID: 4530}
+      Script: {instanceID: 4528}
     - Class: 114
-      Script: {instanceID: 4660}
+      Script: {instanceID: 4658}
     - Class: 114
-      Script: {instanceID: 4982}
+      Script: {instanceID: 4980}
     - Class: 114
-      Script: {instanceID: 5052}
+      Script: {instanceID: 5050}
     - Class: 114
-      Script: {instanceID: 5836}
+      Script: {instanceID: 5834}
     - Class: 114
-      Script: {instanceID: 6520}
+      Script: {instanceID: 6518}
     - Class: 114
-      Script: {instanceID: 7112}
+      Script: {instanceID: 7110}
     - Class: 114
-      Script: {instanceID: 7314}
+      Script: {instanceID: 7312}
     - Class: 114
-      Script: {instanceID: 7328}
+      Script: {instanceID: 7326}
     - Class: 114
-      Script: {instanceID: 7616}
+      Script: {instanceID: 7614}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1689,4 +1701,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/GoBananas.unity
-  playerPath: C:/Users/cjvil/Documents/DGTL13007-Project-Files-main/New folder (6)
+  playerPath: C:/Users/cjvil/Documents/DGTL13007-Project-Files-main/New folder (3)
